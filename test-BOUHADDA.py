@@ -15,7 +15,7 @@ print(response.text)
 
 
 
-fichier = open("MentionChallenge/Resulat.txt","w")
+fichier = open("MentionChallenge/Resulat.json","w")
 fichier.write(response.text)
 fichier.close()
 
